@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-app
-  namespace: your-namespace
+  name: zirong-app
+  namespace: zirong-namespace
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: my-app
+      app: zirong-app
   template:
     metadata:
       labels:
-        app: my-app
+        app: zirong-app
     spec:
       containers:
-        - name: my-app
-          image: my-app-image:latest
+        - name: zirong-app
+          image: zirong-app-image:latest
           ports:
             - containerPort: 80
