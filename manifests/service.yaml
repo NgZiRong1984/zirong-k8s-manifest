@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: zirong-app-service
-  namespace: zirong-namespace
+  namespace: zirong-ns
 spec:
   selector:
     app: zirong-app

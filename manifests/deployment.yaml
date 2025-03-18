@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: zirong-app
-  namespace: zirong-namespace
+  namespace: zirong-ns
 spec:
   replicas: 2
   selector:
