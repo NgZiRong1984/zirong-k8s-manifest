@@ -4,7 +4,7 @@ metadata:
   name: zirong-app
   namespace: zirong-ns
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: zirong-app
