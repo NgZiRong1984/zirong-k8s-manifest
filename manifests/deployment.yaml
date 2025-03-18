@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: zirong-app
-          image: zirong-app-image:latest
+          image: nginx:latest
           ports:
             - containerPort: 80
